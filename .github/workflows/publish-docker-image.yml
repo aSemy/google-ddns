@@ -3,6 +3,7 @@
 name: Create & publish google-ddns Docker image to ghcr.io
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
